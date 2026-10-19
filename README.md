@@ -57,3 +57,4 @@ Edge cases and trade-offs:
 - Travel: the timezone is fixed per habit until changed, so a trip does not silently reshuffle history. The cost is that someone who moves countries has to update it (there is no `PATCH` endpoint yet).
 - Why not just use UTC? It is simpler, but it is wrong for most of the world for part of every day. A per-habit timezone costs one column and one conversion function.
 CI/CD workflow: main -> stage -> prod
+hello sh
